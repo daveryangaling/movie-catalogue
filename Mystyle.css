@@ -1,0 +1,68 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body, html{
+    margin: 0;
+    padding:0;
+
+}
+/* bgAnimation*/
+@keyframes bg-animation {
+    0% {
+        background-color: 50% 100%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+/*navigatorbar */
+header{
+    width:100%;
+    height: 70px;
+    background-color:#800080;
+}
+
+.navTitle{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #DC143C;
+}
+
+span{
+    color:	#FF00FF;
+}
+
+ul{
+    width:auto;
+    float:right;
+    margin-top: 8px;
+}
+
+li{
+    display:inline-block;
+    padding: 15px 30px;
+}
+
+
+
+a:hover{
+    color:   #07c9ff;
+    transition: 0.10s;
+   
+}
+
+
+/* end of navbar*/
